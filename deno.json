@@ -11,5 +11,8 @@
     "permissions": {
       "env": ["DEBUG", "DEBUG_COLORS", "DEBUG_HIDE_DATE"]
     }
+  },
+  "publish": {
+    "exclude": ["./.vscode", "test.ts"]
   }
 }
